@@ -5,7 +5,7 @@ int main()
 {
     float birthYear;
     cout << "What is your Birth Year ? ";
-    cin >> birthYear;
+    cin >> birthYear; // this "cin means the use input to the concsele some information 
     float userAge = 2025 - birthYear;
     cout << "You will turn " << userAge << " this year " << endl;
     cout << "in 15 years you will be " << userAge + 15 << " years old! ";
