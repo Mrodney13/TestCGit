@@ -13,6 +13,14 @@ int main()
     cout << "Inverse ASCII Message: " << char(c1)<< char(c2) << char(c3) << char(c4)  << char(c5)<< endl; // getting the letter fomr the  stored number entered
 
     int i1, i2, i3, i4, i5;
+    cout << "input 5 Numbers: ";
+    cin >> i1 >> i2 >> i3 >> i4 >> i5;
+    cout << "ASCII Reverse Message: " << char(i1) << " " << char(i2) << " " << char(i3) << " " << char(i4) << " " << char(i5) << endl;
+
+  
+
+
+    /*int i1, i2, i3, i4, i5;
     cout << "input First numbers: ";
     cin >> i1;
     cout << "input Second numbers: ";
@@ -23,7 +31,10 @@ int main()
     cin >> i4;
     cout << "input Fifth numbers: ";
     cin >> i5;
-    cout << "Decoded ASCII Messege: " << char(i1) << char(i2) << char(i3) << char(i4)<< char(i5) << endl; // Want to make in one line but i dont know how to going to improve later 
+    cout << "Decoded ASCII Messege: " << char(i1) << char(i2) << char(i3) << char(i4)<< char(i5) << endl; */ // Want to make in one line but i dont know how to going to improve later 
+
+
+   
 
 
 
