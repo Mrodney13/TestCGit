@@ -3,51 +3,29 @@ using namespace std;
 
 int main()
 {
-    float a, b, c;
+ //Modulo Operator : +,-,*,/,%
 
-    cout << "Enter the lengths of the triangle: " << endl;
-    cin >> a >> b >> c; 
-
-
-    if (a == b && a == c)
-    
-        cout << "Triangle is Equilateral! " << endl;
-    
-    else 
-    {
-        if (a != b && a != c && b != c)
-        
-            cout << "Triangle is Scalene! " << endl;
-        
-        else 
-            cout << "Triangle is Isoscel! " << endl;
-        
-    }
+    cout << 5 + 2 << endl; // Additonal simple Modulo Operator
+    cout << 5 / 2 << endl; // 2 becuase its a "int" value if i want to make it 2.5 i need to add decimal in on of the numbers
+    cout << 5 % 2 << endl; // the "%" operator is for calculating the remainder of the operation." in simple terms how times does the number go inside the other one and what left 
    
+ // Unary Operator ++,--
+
+    int counter = 7;
+    
+    counter++;
+
+    cout << counter << endl;
+    cout << ++counter << endl; // the ++ or -- before the varible  means it going to incremente it before it prints the value 
+    cout << counter-- << endl;// the ++ or -- after the varible  means it going to incremente it after it prints the value 
+
+     system("cls");
+
+ // Relational Operator <,>,<=,>=,==,!=
+
     
 
-   
 
-
-
-
-
-
-
-   /* int n;
-    cout << "Enter a Number: ";
-    cin >> n;
-    if (n%2==0)
-    {
-        cout << "Result is Even " << endl;
-    }
-    else
-    {
-        cout << "Result is Odd " << endl;
-    }*/
-
-  
-   
 
     system("pause>0");
 }
