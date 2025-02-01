@@ -8,14 +8,25 @@ int main()
 {
     float weight;
     float height;
+    float bmi;
     
     cout << "Enter your Weight (lbs): " << endl;
-    cin >> weight endl;
+    cin >> weight;
 
     cout << "Enter your Height (inches): " << endl;
-    cin >> height >> endl;
+    cin >> height;
 
+    bmi = (weight * 703) / (height * height);
 
+    if (bmi>29.9)
+    {
+        cout << "You are Extremely OverWeight and you BMI is: " << bmi;
+        if (true)
+        {
+
+        }
+    }
+    
     
    
 
